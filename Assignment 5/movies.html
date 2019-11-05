@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+	<title>Movie DB API Search</title>
+</head>
+	
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<h1 class="col-12 mt-4">Cinema News Vendor</h1>
+		</div>
+		<div class="row">
+			<form action="" method="" class="col-12" id="search-form">
+				<div class="form-row">
+					<div class="col-12 mt-4 col-sm-6 col-lg-4">
+						<label for="search-id" class="sr-only">Search:</label>
+						<input type="text" name="" class="form-control" id="search-id" placeholder="Search...">
+					</div>
+					<div class="col-12 mt-4 col-sm-auto">
+						<button type="submit" class="btn btn-primary btn-block">Search</button>
+					</div>
+				</div>
+			</form>
+		</div>
+
+		<div class = "row">
+			<div><p>Showing <span id="num-matches" class="font-weight-bold">20</span> of <span id="num-results" class="font-weight-bold">200</span> result(s).</p></div>
+		</div>
+
+		<div id="movies" class="row">
+			<div id="pics" class="col-sm-6 col-md-4 col-lg-3">
+				<div class="imgs"> </div>
+			</div>
+		</div>
+	</div>
+<script src="script.js"></script>
+</body>
+</html>
