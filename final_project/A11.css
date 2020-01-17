@@ -1,0 +1,100 @@
+html, body {
+	margin: 0 0;
+	background-color: #ffce99;
+}
+* {
+	box-sizing: border-box;
+}
+#main {
+	width: 100%;
+}
+.navbar {
+	font-family: 'Dancing Script', cursive;
+}
+.jumbotron {
+	background-image: url("title_image.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+}
+#login, #edit {
+	margin: auto auto;
+	width: 300px;
+	padding: 2% 2%;
+	background-color: #5F0F40;
+	border: 1px solid grey;
+	border-radius: 20px;
+	color: white;
+}
+#register {
+	margin: auto auto;
+	width: 350px;
+	padding: 2% 2%;
+	background-color: #5F0F40;
+	border: 1px solid grey;
+	border-radius: 20px;
+	color: white;
+}
+.header {
+}
+.logo {
+	text-align: center;
+	margin-bottom: 5%;
+}
+#nav-logo {
+	flex:left;
+	width: 20%;
+}
+.submit-button {
+	text-align: center;
+}
+#logo-img {
+	width: 20%;
+}
+#mp-logo {
+	width: 60px;
+}
+#welcome-msg {
+	color: white;
+	font-size: 20px;
+}
+.day-column {
+	background-color: white;
+	width: 10%;
+}
+.edit-btn, .delete-btn {
+	padding: 0px 0px;
+}
+#table-div {
+	overflow: scroll;
+}
+.table {
+	margin: auto auto;
+	width: 95%;
+	text-align: center;
+	background-color: #ffe6cc;
+	border: 5px solid #4d2800;
+}
+h1 {
+	text-align: center;
+}
+td{
+	word-break: break-all;
+}
+tr{
+	border: 2px solid #4d2800;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+@media (min-width: 768px) {
+	.table {
+		width: 80%;
+		margin: auto auto;
+	}
+}
+@media (min-width: 992px) {
+	.table {
+		width: 60%;
+		margin: auto auto;
+	}
+}

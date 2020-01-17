@@ -1,0 +1,71 @@
+html, body {
+	margin: 0 0;
+	background-color: grey;
+}
+* {
+	box-sizing: border-box;
+}
+#main {
+	width: 100%;
+}
+.navbar {
+	font-family: 'Libre Baskerville', serif;
+}
+.jumbotron {
+	background-image: url("title_image.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+}
+#login {
+	margin: auto auto;
+	width: 300px;
+	padding: 2% 2%;
+	background-color: #5F0F40;
+	border: 1px solid grey;
+	border-radius: 20px;
+	color: white;
+}
+#register {
+	margin: auto auto;
+	width: 350px;
+	padding: 2% 2%;
+	background-color: #5F0F40;
+	border: 1px solid grey;
+	border-radius: 20px;
+	color: white;
+}
+.header {
+}
+.logo {
+	text-align: center;
+	margin-bottom: 5%;
+}
+#nav-logo {
+	flex:left;
+	width: 20%;
+}
+.submit-button {
+	text-align: center;
+}
+#logo-img {
+	width: 20%;
+}
+#mp-logo {
+	width: 10px;
+}
+td{
+	word-break: break-all;
+}
+@media (min-width: 768px) {
+	.table {
+		width: 80%;
+		margin: auto auto;
+	}
+}
+@media (min-width: 992px) {
+	.table {
+		width: 60%;
+		margin: auto auto;
+	}
+}
